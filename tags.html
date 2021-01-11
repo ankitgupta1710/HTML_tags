@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This site contains html tags with description and examples.">
+  <meta name="author" content="Ankit Gupta">
+  <title>Html Tutorial</title>
+</head>
+
+<body style="background-color:#dddddd;">
+  <center>
+    <h1>HTML Tutorials</h1>
+    <h2>HTML Tags</h2>
+  </center>
+
+  <center>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;!--...--&gt;</td>
+          <td>Defines a comment</td>
+        </tr>
+        <tr>
+          <td>&lt;!DOCTYPE&gt;</td>
+          <td>Defines the document type</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td><a href="assets/aTag.html">Defines a hyperlink</a></td>
+        </tr>
+        <tr>
+          <td>&lt;abbr&gt;</td>
+          <td>Defines an abbreviation or an acronym. For example: This is a <abbr title="HyperText Markup Language">HTML</abbr> Site</td>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;</td>
+          <td>Defines an article. <h1>The article element</h1>
+            <article>
+              <h2>Google Chrome</h2>
+              <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+            <article>
+              <h2>Mozilla Firefox</h2>
+              <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+            </article>
+            <article>
+              <h2>Microsoft Edge</h2>
+              <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            </article>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;audio&gt;</td>
+          <td>Defines embedded sound content.
+            <h1>The audio element</h1>
+            <p>Click on the play button to play a sound:</p>
+            <audio controls>
+              <source src="assets/bell.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;b&gt;</td>
+          <td><b>Defines bold text</b></td>
+        </tr>
+        <tr>
+          <td>&lt;bdo&gt;</td>
+          <td>Overrides the current text direction. Example: <h1>The bdo element</h1>
+            <p>This paragraph will go left-to-right.</p>
+            <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>Defines the document's body</td>
+        </tr>
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>
+            <h1>The br element</h1>
+            <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;button&gt;</td>
+          <td>Defines a <button type="button">clickable button</button></td>
+        </tr>
+        <tr>
+          <td>&lt;caption;&gt;</td>
+          <td>Defines a table caption
+            <table border="3">
+              <caption>This is a caption</caption>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$50</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;center&gt;</td>
+          <td>Not supported in HTML5. Use CSS instead. Defines centered text.
+            <br>Example: <center>This text is centered</center>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;code&gt;</td>
+          <td>Defines a piece of computer code. <br>Example: <h1>The code element</h1>
+            <p>The HTML <code>button</code> tag defines a clickable button.</p>
+            <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;data&gt;</td>
+          <td>Adds a machine-readable translation of a given content.<br>
+            <h1>The data element</h1>
+            <p>The following example displays product names but also associates each name with a product number:</p>
+            <ul>
+              <li><data value="21053">Cherry Tomato</data></li>
+              <li><data value="21054">Beef Tomato</data></li>
+              <li><data value="21055">Snack Tomato</data></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;datalist&gt;</td>
+          <td>This tag is used to provide an "autocomplete" feature for input elements. Users will see a drop-down list of pre-defined options as they input data..
+            <h1>The datalist element</h1>
+            <form action="tags.html" method="get">
+              <label for="browser">Choose your browser from the list:</label>
+              <input list="browsers" name="browser" id="browser">
+              <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+              </datalist>
+              <input type="submit">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;dd&gt;</td>
+          <td>Defines a description/value of a term in a description list<br>
+            <h1>The dl, dd, and dt elements</h1>
+            <p>These three elements are used to create a description list:</p>
+            <dl>
+              <dt>Coffee</dt>
+              <dd>Black hot drink</dd>
+              <dt>Milk</dt>
+              <dd>White cold drink</dd>
+            </dl>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;del&gt;</td>
+          <td>Defines text that has been deleted from a document<br>
+            <h1>The del element</h1>
+            <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;details&gt;</td>
+          <td>Defines additional details that the user can view or hide.<br>
+            <h1>The details element</h1>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;dialog&gt;</td>
+          <td>Defines a dialog box or window.<h1>The dialog element</h1>
+            <p>This is some text.</p>
+            <p>This is some text.</p>
+            <dialog open>This is an open dialog window</dialog>
+            <p>This is some text.</p>
+            <p>This is some text.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>Defines a section in a document.
+            <style>
+              .myDiv {
+                border: 5px outset red;
+                background-color: lightblue;
+                text-align: center;
+              }
+            </style>
+            </head>
+            <h1>The div element</h1>
+            <div class="myDiv">
+              <h2>This is a heading in a div element</h2>
+              <p>This is some text in a div element.</p>
+            </div>
+            <p>This is some text outside the div element.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;em&gt;</td>
+          <td>Defines <em>emphasized text</em> </td>
+        </tr>
+        <tr>
+          <td>&lt;figure&gt;<br>and<br> &lt;figcaption&gt;</td>
+          <td>
+            <h1>The figure and figcaption element</h1>
+            <figure>
+              <img src="assets/pic_trulli.jpg" alt="Trulli" style="width:100%">
+              <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+            </figure>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Defines an HTML form for user input
+            <h1>The form element</h1>
+            <form action="/action_page.php">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt; to &lt;h6&gt;</td>
+          <td>Defines HTML headings
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;hr&gt;</td>
+          <td>Defines a thematic change in the content represented by a horizontal rule.
+            <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+            <hr>
+            <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+            <hr>
+            <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Defines the root of an HTML document.The &lt;head&gt; element is a container for metadata (data about data) and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.</td>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>Defines the root of an HTML document</td>
+        </tr>
+        <tr>
+          <td>&lt;i&gt;</td>
+          <td>Defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Defines an image
+            <img src="assets/img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Defines an input control
+            <h1>The input element</h1>
+            <form>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date"><br><br>
+              <label for="password">password:</label>
+              <input type="password" id="password" name="password"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;kbd&gt;</td>
+          <td>This tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.<h1>The kbd element</h1>
+            <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+            <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;legend&gt;</td>
+          <td>tag defines a caption for the &lt;fieldset&gt; element.
+            <h1>The legend element</h1>
+            <form action="/action_page.php">
+              <fieldset>
+                <legend>This is the caption:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>Defines a list item</td>
+        </tr>
+        <tr>
+          <td>&lt;main&gt;</td>
+          <td>The &lt;main&gt; tag specifies the main content of a document.
+            The content inside the &lt;main&gt; element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;mark&gt;</td>
+          <td>Defines <mark>marked/highlighted text</mark></td>
+        </tr>
+        <tr>
+          <td>&lt;noscript&gt;</td>
+          <td>The &lt;noscript&gt; tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.</td>
+        </tr>
+        <tr>
+          <td>&lt;object&gt;</td>
+          <td>The &lt;object&gt; tag defines a container for an external resource.
+            The external resource can be a web page, a picture, a media player, or a plug-in application.</mark></td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>Defines an ordered list.
+            <ol>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;option&gt;</td>
+          <td>Defines an option in a drop-down list</td>
+        </tr>
+        <tr>
+          <td>&lt;pre&gt;</td>
+          <td>
+            <pre>
+                Text in a pre element
+                is displayed in a fixed-width
+                font, and it preserves
+                both      spaces and
+                line breaks
+              </pre>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;progress&gt;</td>
+          <td>The &lt;progress&gt; tag represents the completion progress of a task.<label for="file">Downloading progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Defines an paragraph</td>
+        </tr>
+        <tr>
+          <td>&lt;samp&gt;</td>
+          <td>
+            The &lt;samp&gt; tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.<p>Message from my computer:</p>
+            <p><samp>File not found.<br>Press F1 to continue</samp></p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;section&gt;</td>
+          <td>The &lt;section&gt; tag defines a section in a document.
+            <section>
+              <h2>WWF History</h2>
+              <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+            </section>
+            <section>
+              <h2>WWF's Symbol</h2>
+              <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+            </section>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;select&gt;</td>
+          <td>The &lt;select&gt; element is used to create a drop-down list.
+            The &lt;select&gt; element is most often used in a form, to collect user input.<br>
+            This is a drop-down list created by &lt;select&gt; element.<br>
+            <label for="cars">
+              Choose a car:</label>
+            <select name="cars" id="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>The &lt;span&gt; tag is an inline container used to mark up a part of a text, or a part of a document.
+            The &lt;span&gt; tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+            Example: <p>My mother has <span style="color:blue">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;strong&gt;</td>
+          <td><strong>The &lt;strong&gt; tag is used to define text with strong importance. The content inside is typically displayed in bold.</strong></td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Defines a table
+            <table border="3">
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$50</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;time&gt;</td>
+          <td>The &lt;time&gt; tag defines a specific time (or datetime). Example: <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>The &lt;title&gt; tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</td>
+        </tr>
+        <tr>
+          <td>&lt;u&gt;</td>
+          <td>&lt;u&gt; <u> This underlines text</u></td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Defines an unordered list
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>The &lt;video&gt; tag is used to embed video content in a document, such as a movie clip or other video streams.<br>
+            <video width="320" height="240" controls>
+              <source src="assets/movie.mp4" type="video/mp4">
+
+              Your browser does not support the video tag.
+            </video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+</body>
+
+</html>
